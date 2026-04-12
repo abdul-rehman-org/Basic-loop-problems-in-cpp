@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main() {
+    
+   int  m;
+   cin>>m;
+   for(int n=1;n<=10;n++){
+       cout<< m <<" "<< "*" << " "<< n <<" "<<"="<< " " << m*n<< endl;
+   }
+    
+    return 0;
+}
